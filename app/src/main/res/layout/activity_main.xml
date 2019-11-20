@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/srch_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="15dp"
+        android:background="@color/colorRed"
+        android:text="Emergency Search for hospital"
+        android:textSize="25sp"
+        >
+    </Button>
+
+    <EditText
+        android:id="@+id/srch_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_by_hospital_name"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        >
+    </EditText>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+        <!--here, add the images of hospitals in scrollable form-->
+    </GridLayout>
+
+</LinearLayout>

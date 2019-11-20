@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HospiHelp</string>
+    <string name="search_by_hospital_name">Search by Hospital name</string>
+    <string name="do_emergency_booking">Do Emergency Booking</string>
+    <string name="specialists">Specialists</string>
+    <string name="gynecologist">Gynecologist</string>
+    <string name="location">Location</string>
+</resources>

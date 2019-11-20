@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".EmergencyBooking">
+
+    <Button
+        android:id="@+id/booking_btn"
+        android:layout_width="match_parent"
+        android:text="@string/do_emergency_booking"
+        android:textSize="25sp"
+        android:background="@color/colorRed"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="15dp"
+        >
+    </Button>
+
+    <TextView
+        android:id="@+id/specialist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/specialists"
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="100dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layout_margin="5dp"
+            android:text="  ear">
+        </Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layout_margin="5dp"
+            android:text="  eyes">
+        </Button>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layout_margin="5dp"
+            android:text="  Bones">
+        </Button>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layout_margin="5dp"
+            android:text="  Gynecologist">
+        </Button>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layout_margin="5dp"
+            android:text="  psychiatrist">
+        </Button>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:layout_margin="5dp"
+            android:text="  psychiatrist">
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>
